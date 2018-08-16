@@ -44,7 +44,7 @@ function refresh_module_list() {
             avail_set.delete(item)
         });
 
-        search_source = Array.from(avail_set);
+        search_source = Array.from(avail_set).sort();
         refresh_avail_list();
     });
 }
