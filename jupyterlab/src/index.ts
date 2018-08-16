@@ -16,6 +16,7 @@ import * as Lmod from '../../jupyterlmod/static/lmod.js';
 
 var lmod_list_line = $(`
   <li class="jp-RunningSessions-item">
+     <span class="jp-RunningSessions-itemIcon" style="margin-left:4;"></span>
      <span class="jp-RunningSessions-itemLabel"></span>
      <button class="jp-RunningSessions-itemShutdown jp-mod-styled"></button>
   </li>`)
